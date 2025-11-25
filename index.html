@@ -5,14 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nagari Vamsi Krishna | Cybersecurity Portfolio</title>
     
-    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     
-    <!-- React and ReactDOM -->
     <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
     
-    <!-- Babel for JSX -->
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 
     <style>
@@ -274,27 +271,22 @@
                                         (150+ solved) or building tools to automate security workflows.
                                     </p>
                                 </div>
-                               <div className="relative group">
-                               {/* The Green Border Shadow (Keep this) */}
-                               <div className="absolute inset-0 bg-green-500 rounded translate-x-3 translate-y-3 group-hover:translate-x-2 group-hover:translate-y-2 transition-transform duration-300 ease-out"></div>
-    
-                                {/* The Image Container */}
-                                <div className="relative bg-slate-900 rounded border border-slate-700 h-[300px] md:h-full w-full overflow-hidden">
-        
-                                {/* REPLACE THE TERMINAL CODE WITH THIS IMAGE TAG */}
-                                <img 
-                                        src="./profile.jpg" 
-                                        alt="Nagari Vamsi Krishna" 
-                                        className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-300"
-                                         />
-        
-                                {/* Optional: A green overlay that vanishes when you hover (Matrix style) */}
-                                <div className="absolute inset-0 bg-green-500/20 group-hover:bg-transparent transition-colors duration-300 pointer-events-none"></div>
+                                
+                                {/* Photo Container - UPDATED WITH YOUR PHOTO */}
+                                <div className="relative group">
+                                    <div className="absolute inset-0 bg-green-500 rounded translate-x-3 translate-y-3 group-hover:translate-x-2 group-hover:translate-y-2 transition-transform duration-300 ease-out"></div>
+                                    <div className="relative bg-slate-900 rounded border border-slate-700 h-[300px] w-full overflow-hidden">
+                                        {/* Image inserted here */}
+                                        <img 
+                                            src="profile.jpg" 
+                                            alt="Nagari Vamsi Krishna" 
+                                            className="w-full h-full object-cover transition-all duration-300"
+                                        />
+                                        {/* Green overlay that fades on hover */}
+                                                                            </div>
+                                </div>
+                                {/* End Photo Container */}
 
-                                </div>
-                                    </div>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </section>
@@ -589,4 +581,3 @@
     </script>
 </body>
 </html>
-
